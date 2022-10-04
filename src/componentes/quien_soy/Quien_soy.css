@@ -1,0 +1,59 @@
+.quiensoy-contenedor {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 70vh;
+    padding: 100px 0 100px 0;
+  }
+  
+  .quiensoy-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding: 0 100px 0 100px;
+  }
+  
+  .quiensoy-desc > h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .quiensoy-desc > p {
+    line-height: 1.5;
+  }
+  
+  .dana_portafolio{
+    width: 45%;
+    display: flex;
+    align-self: center;
+    overflow: hidden;
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .quiensoy-contenedor {
+      flex-direction: column;
+      padding: 0;
+      height: auto;
+    }
+  
+    .quiensoy-desc {
+      width: 90%;
+      margin: 0 auto;
+      padding: 40px 20px 50px 20px;
+    }
+  
+    .quiensoy-desc > h3 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .quiensoy-img {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  
+    .quiensoy-img > img {
+      width: 100%;
+    }
+  }
